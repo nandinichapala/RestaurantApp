@@ -1,0 +1,113 @@
+.list-item-container {
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.veg-or-nonveg-details-description-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+}
+.description-details-container {
+  display: flex;
+  flex-direction: column;
+}
+.dish-name {
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.dish-price {
+  font-size: 20px;
+  color: #5c5e5d;
+  font-weight: 700;
+}
+.dish-description {
+  color: #b1b3b2;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.dish-calories {
+  width: 12%;
+  color: #f2a807;
+  font-size: 20px;
+  font-weight: 600;
+}
+.dish-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+.green-label-container {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+  margin-right: 10px;
+}
+.green-dot-container {
+  height: 18px;
+  width: 18px;
+  background-color: green;
+  border-radius: 25px;
+}
+.red-label-container {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ab0a18;
+  margin-right: 10px;
+}
+.red-dot-container {
+  height: 18px;
+  width: 18px;
+  background-color: #ab0a18;
+  border-radius: 25px;
+}
+.not-available-text {
+  color: red;
+  margin-top: 0px;
+  font-size: 20px;
+}
+.increase-decrease-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 120px;
+  background-color: #189106;
+  border-radius: 25px;
+  padding: 5px;
+}
+.quantity-btn {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 26px;
+  border: 0px;
+}
+.qantity {
+  color: #ffffff;
+  font-size: 22px;
+}
+.custom-text {
+  color: #4d07e3;
+  font-size: 22px;
+}
