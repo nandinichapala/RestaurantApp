@@ -61,7 +61,7 @@ class App extends Component {
   onChangeActiveTabId = menuCategoryId => {
     this.setState({activeCategoryId: menuCategoryId})
   }
-
+  // eslint-disable-next-line class-methods-use-this
   renderLoadingView = () => (
     <div>
       <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />

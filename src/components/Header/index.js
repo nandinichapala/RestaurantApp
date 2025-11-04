@@ -10,8 +10,9 @@ const Header = props => {
         const {cartList} = value
         let quantityVal = 0
 
-        cartList.map(each => (quantityVal += each.quantity))
-        console.log(quantityVal)
+        cartList.forEach(each => {
+  quantityVal += each.quantity
+})
 
         return (
           <nav className="nav-container">
