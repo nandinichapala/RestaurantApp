@@ -86,7 +86,7 @@ class DishItem extends Component {
                 </div>
               </div>
               <p className="dish-calories">{dishCalories} calories</p>
-              <img src={dishImage} className="dish-image" />
+              <img src={dishImage} className="dish-image" alt="dishItem" />
             </li>
           )
         }}

@@ -11,8 +11,8 @@ const Header = props => {
         let quantityVal = 0
 
         cartList.forEach(each => {
-  quantityVal += each.quantity
-})
+          quantityVal += each.quantity
+        })
 
         return (
           <nav className="nav-container">
